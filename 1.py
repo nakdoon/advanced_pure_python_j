@@ -1,6 +1,9 @@
-def jam(a,b):
-    javab = a+b
-    return(javab)
-a = 14
-b = 23
-print(jam(a,b))
+count = 1
+output = str()
+n = int(input ())
+while count <= n+1 :
+  for i in range(1,count):
+    output +=str(i)
+  print(output)
+  output = ''
+  count += 1
